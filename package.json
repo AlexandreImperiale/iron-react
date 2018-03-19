@@ -1,0 +1,32 @@
+{
+  "name": "rouille-react",
+  "version": "0.1.0",
+  "author": "AlexandreImperiale <https://github.com/AlexandreImperiale>",
+  "homepage": "https://github.com/AlexandreImperiale/iron-react#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreImperiale/iron-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexandreImperiale/iron-react/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack && cargo build",
+    "start": "cargo run"
+  },
+  "dependencies": {
+    "npx": "^10.0.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
